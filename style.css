@@ -28,12 +28,12 @@ body {
   padding: 0;
   min-height: 100vh;
   font-family: "figtree";
+  background-color: hsl(47, 88%, 63%);
 }
 
 .container {
   width: 100%;
-  min-height: 100vh;
-  background-color: hsl(47, 88%, 63%);
+  min-height: calc(100vh - 30px);
 
   display: flex;
   justify-content: center;
